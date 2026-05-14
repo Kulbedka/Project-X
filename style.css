@@ -631,57 +631,28 @@ button {
   margin-top: 98px;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 90px;
-  color: rgba(255, 255, 255, 0.58);
+.brand-logo {
+  display: block;
+  height: auto;
+  max-height: 138px;
+  flex: 0 1 auto;
+  opacity: 0.82;
 }
 
 .brand-unreal {
-  gap: 12px;
+  width: 248px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 72px;
-  height: 72px;
-  border: 2px solid rgba(255, 255, 255, 0.45);
-  border-radius: 50%;
-  font-size: 38px;
-  font-weight: 700;
+.brand-unity {
+  width: 356px;
 }
 
-.brand-unreal strong,
-.brand-unreal small {
-  display: block;
+.brand-oculus {
+  width: 292px;
 }
 
-.brand-unreal strong {
-  font-size: 34px;
-  line-height: 1;
-}
-
-.brand-unreal small {
-  font-size: 18px;
-  line-height: 1;
-}
-
-.brand-unity,
-.brand-oculus,
 .brand-vive {
-  font-size: 62px;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.brand-oculus,
-.brand-vive {
-  font-size: 56px;
-  font-weight: 600;
+  width: 282px;
 }
 
 .process-section {
@@ -1005,6 +976,7 @@ button {
   .brand-row {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 36px 42px;
   }
 
   .process-steps {
@@ -1320,14 +1292,24 @@ button {
     margin-top: 72px;
   }
 
-  .brand-unity,
-  .brand-oculus,
-  .brand-vive {
-    font-size: 38px;
+  .brand-logo {
+    max-height: 92px;
   }
 
-  .brand-unreal strong {
-    font-size: 24px;
+  .brand-unreal {
+    width: 182px;
+  }
+
+  .brand-unity {
+    width: 246px;
+  }
+
+  .brand-oculus {
+    width: 206px;
+  }
+
+  .brand-vive {
+    width: 200px;
   }
 
   .process-steps {
